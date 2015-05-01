@@ -132,11 +132,15 @@ Also you can add your custom animations to be executed during showing/hiding/clo
 
 
 You can set your own object as one of **delegates** of ARSPContainerController:
+
 - **visibilityStateDelegate** - subscribes to track **Visibility State changes** of Panel View Controller:
+
  -(void)panelControllerChangedVisibilityState:(ARSPVisibilityState)state;
+
 Please refer to **'ARSPVisibilityState.h'** to see list of all Visibility States
 
 - **dragDelegate** - subscribes to track **dragging** of Panel View Controller
+
  -(void)panelControllerWasDragged:(CGFloat)panelControllerVisibility;
 
 Have fun!
