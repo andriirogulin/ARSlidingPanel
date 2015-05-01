@@ -1,0 +1,14 @@
+PODS:
+  - ARSlidingPanel (0.1)
+
+DEPENDENCIES:
+  - ARSlidingPanel (from `..`)
+
+EXTERNAL SOURCES:
+  ARSlidingPanel:
+    :path: ..
+
+SPEC CHECKSUMS:
+  ARSlidingPanel: ff5ce871a19e6e0ffc802d5ba587fc97b3adfb52
+
+COCOAPODS: 0.37.0.rc.1
