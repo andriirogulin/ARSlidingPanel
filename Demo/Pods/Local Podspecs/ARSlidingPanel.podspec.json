@@ -2,7 +2,7 @@
   "name": "ARSlidingPanel",
   "version": "0.1.0",
   "summary": "ARSlidingPanel is a realization of sliding-up panel for iOS",
-  "description": "                   ARSlidingPanel is and iOS framework that allows to use 'Google Play Music - like' sliding-up panel in your application\n",
+  "description": " ARSlidingPanel is and iOS framework that allows to use 'Google Play Music - like' sliding-up panel in your application\n",
   "homepage": "https://github.com/andriirogulin/ARSlidingPanel",
   "license": {
     "type": "MIT",

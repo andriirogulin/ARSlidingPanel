@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ..
 
 SPEC CHECKSUMS:
-  ARSlidingPanel: 5fd4fd86c8e70be3a9a1442a649fd0cb15cb08e7
+  ARSlidingPanel: 3ea5bff37b21fc76fb4cd6bf3768e3f590d28cbc
 
 COCOAPODS: 0.37.0.rc.1

@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "ARSlidingPanel is a realization of sliding-up panel for iOS"
 
   s.description  = <<-DESC
-                   ARSlidingPanel is and iOS framework that allows to use 'Google Play Music - like' sliding-up panel in your application
+ ARSlidingPanel is and iOS framework that allows to use 'Google Play Music - like' sliding-up panel in your application
                    DESC
 
   s.homepage     = "https://github.com/andriirogulin/ARSlidingPanel"

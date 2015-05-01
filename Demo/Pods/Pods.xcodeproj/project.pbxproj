@@ -7,230 +7,213 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B242684AD5BEF68B71E2F86 /* ARSPPanelViewControllerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8FFBE784324AD230969B2 /* ARSPPanelViewControllerSegue.m */; };
-		5AE7D1BDCA23CAD41BAAE6CA /* ARSPVisibilityState.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E5805EEAC41D54174DD67B2 /* ARSPVisibilityState.h */; };
-		5B197FEC7A997A78D3E765CE /* ARSPDragDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4577F30312A20363F928041D /* ARSPDragDelegate.h */; };
-		5FFE712F4EDCACF1B843FCED /* ARSPPanelViewControllerSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B5CF472E9E96331BEFE0C3 /* ARSPPanelViewControllerSegue.h */; };
-		7B83BB2B0D310340429665B1 /* ARSPContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DBCD983C58D92C79257BAA /* ARSPContainerController.m */; };
-		7E6B70C9B325A626DC899174 /* ARSPContainerController.h in Headers */ = {isa = PBXBuildFile; fileRef = E13AE76EF528FD0BCDCDAEEC /* ARSPContainerController.h */; };
-		8122E9269530A3F94A65C1B9 /* Pods-ARSlidingPanel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0921E0932EB5995F63CF6D /* Pods-ARSlidingPanel-dummy.m */; };
-		81608C29A4A13FF620827317 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F128D030A5D206B30A9716 /* UIKit.framework */; };
-		88B0E96819D39F68E15E7832 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380E9CBC84DE724FB25B2A81 /* Foundation.framework */; };
-		8B5B3D42ADCC1F7B04C93901 /* ARSPVisibilityStateDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A78F8D0F5FF656DC12CA6F40 /* ARSPVisibilityStateDelegate.h */; };
-		B13223D0122E8466C908A183 /* ARSPMainViewControllerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D3278C216A821A0F6E43A5 /* ARSPMainViewControllerSegue.m */; };
-		B9ED247B09F0D07A0F5D345E /* ARSPMainViewControllerSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 18521CE5D6B7C7BDC8242122 /* ARSPMainViewControllerSegue.h */; };
-		C33D9E90A3543FC3177054A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380E9CBC84DE724FB25B2A81 /* Foundation.framework */; };
-		EC32FA66EC4304DCBAA9622D /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D83B1EAA79C870AAAB24705B /* Pods-dummy.m */; };
+		16F884AACC8657C1EEDF2866 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C0BD376216A3239E284B59 /* UIKit.framework */; };
+		23D950F591EA1D561227A572 /* ARSPMainViewControllerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C0F2BB37214FCE819946A8 /* ARSPMainViewControllerSegue.m */; };
+		2B962A2555215E21A4B94286 /* ARSPMainViewControllerSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF4F498A0E57D9D662041DB /* ARSPMainViewControllerSegue.h */; };
+		58A4DF92CCCCD8FC7FB59EEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C259019DEC1CCAA45C2CEB5 /* Foundation.framework */; };
+		677583C0827CC1A77B765FAC /* ARSPVisibilityState.h in Headers */ = {isa = PBXBuildFile; fileRef = 3445C6288C884E119BA0305C /* ARSPVisibilityState.h */; };
+		6DEE02779C2EB95490F617D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C259019DEC1CCAA45C2CEB5 /* Foundation.framework */; };
+		90F428260BBE59248734CC2E /* ARSPPanelViewControllerSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7527950D1783CF6F25DFB376 /* ARSPPanelViewControllerSegue.m */; };
+		BE964967CD2AF09991698CBD /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2B6887F42498C12EC4CEEE /* Pods-dummy.m */; };
+		CCA40AB219D7083070793784 /* ARSPDragDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB6D5FF8005D850F25A978C /* ARSPDragDelegate.h */; };
+		E6535E124A728F25E416028E /* ARSPContainerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 85809D60157ECBE8B5BBD0A1 /* ARSPContainerController.h */; };
+		E949CC87FE8D1E504FA90659 /* ARSPContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C1CB91241DF5E46DCBA03E /* ARSPContainerController.m */; };
+		EBAEE3B875F0372C325F85CE /* Pods-ARSlidingPanel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5CD1185FFD6CCFE9E3B3E /* Pods-ARSlidingPanel-dummy.m */; };
+		F3B5C8897F366F9A57278B34 /* ARSPPanelViewControllerSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF54BEF290564E4201CDCBF /* ARSPPanelViewControllerSegue.h */; };
+		FFB41BA338E300B0E1DE630F /* ARSPVisibilityStateDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 00389CC19009D47D595E3CAC /* ARSPVisibilityStateDelegate.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		745B04F0185ACE86C94B0D5E /* PBXContainerItemProxy */ = {
+		DEA52CCA7DEC06E8A766CC43 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6E0FE34B1B1B0D6FF28DBD6C /* Project object */;
+			containerPortal = 9AF4858CF781263D459CC6CC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FFD3960257BE96A1DF17555B;
+			remoteGlobalIDString = 4D09B3A3D99C304D69A00797;
 			remoteInfo = "Pods-ARSlidingPanel";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0045C611B9622AA9D7ECCF85 /* libPods-ARSlidingPanel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARSlidingPanel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		054FBE082B4DEF85610E27D2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		18521CE5D6B7C7BDC8242122 /* ARSPMainViewControllerSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARSPMainViewControllerSegue.h; sourceTree = "<group>"; };
-		1DB8FFBE784324AD230969B2 /* ARSPPanelViewControllerSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ARSPPanelViewControllerSegue.m; sourceTree = "<group>"; };
-		20DBCD983C58D92C79257BAA /* ARSPContainerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ARSPContainerController.m; sourceTree = "<group>"; };
-		223B2BFBD98A986FFDFEAB35 /* Pods-ARSlidingPanel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARSlidingPanel-prefix.pch"; sourceTree = "<group>"; };
-		2ABFB9CCEC6530124F20685C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2F64C03692BE7D724D8FFADA /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		380E9CBC84DE724FB25B2A81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		42B5CF472E9E96331BEFE0C3 /* ARSPPanelViewControllerSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARSPPanelViewControllerSegue.h; sourceTree = "<group>"; };
-		442F5B4F82A2B5B85CF8647A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4577F30312A20363F928041D /* ARSPDragDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARSPDragDelegate.h; sourceTree = "<group>"; };
-		45D3278C216A821A0F6E43A5 /* ARSPMainViewControllerSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ARSPMainViewControllerSegue.m; sourceTree = "<group>"; };
-		63F128D030A5D206B30A9716 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		6C7493E27EAB442FA608DBC2 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		6E5805EEAC41D54174DD67B2 /* ARSPVisibilityState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARSPVisibilityState.h; sourceTree = "<group>"; };
-		728B825DA079656E9AA17BB5 /* Pods-ARSlidingPanel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARSlidingPanel-Private.xcconfig"; sourceTree = "<group>"; };
-		7E6D48ACB4FFA13A49D5E984 /* Pods-ARSlidingPanel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARSlidingPanel.xcconfig"; sourceTree = "<group>"; };
-		7F0921E0932EB5995F63CF6D /* Pods-ARSlidingPanel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARSlidingPanel-dummy.m"; sourceTree = "<group>"; };
-		A78F8D0F5FF656DC12CA6F40 /* ARSPVisibilityStateDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARSPVisibilityStateDelegate.h; sourceTree = "<group>"; };
-		AD4E5F68FB1F736BC466E79F /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CD247CC059EBF8625900223D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		D83B1EAA79C870AAAB24705B /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		E13AE76EF528FD0BCDCDAEEC /* ARSPContainerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARSPContainerController.h; sourceTree = "<group>"; };
-		E1FF63B3C29DB04F44E20CA6 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		00389CC19009D47D595E3CAC /* ARSPVisibilityStateDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARSPVisibilityStateDelegate.h; sourceTree = "<group>"; };
+		018097BE7E1D56D9A0CCE470 /* libPods-ARSlidingPanel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARSlidingPanel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF54BEF290564E4201CDCBF /* ARSPPanelViewControllerSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARSPPanelViewControllerSegue.h; sourceTree = "<group>"; };
+		184A0D97C8B21453E0377FD5 /* Pods-ARSlidingPanel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARSlidingPanel-prefix.pch"; sourceTree = "<group>"; };
+		1BF4F498A0E57D9D662041DB /* ARSPMainViewControllerSegue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARSPMainViewControllerSegue.h; sourceTree = "<group>"; };
+		27C0F2BB37214FCE819946A8 /* ARSPMainViewControllerSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ARSPMainViewControllerSegue.m; sourceTree = "<group>"; };
+		28C0BD376216A3239E284B59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3445C6288C884E119BA0305C /* ARSPVisibilityState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARSPVisibilityState.h; sourceTree = "<group>"; };
+		36185ECBFC8549B992888D15 /* Pods-ARSlidingPanel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARSlidingPanel.xcconfig"; sourceTree = "<group>"; };
+		5C259019DEC1CCAA45C2CEB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5DE5CD1185FFD6CCFE9E3B3E /* Pods-ARSlidingPanel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARSlidingPanel-dummy.m"; sourceTree = "<group>"; };
+		609CBE770F356C5BDDF757F6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		6AAA80EA48D944A8021DAC46 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		73C1CB91241DF5E46DCBA03E /* ARSPContainerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ARSPContainerController.m; sourceTree = "<group>"; };
+		7527950D1783CF6F25DFB376 /* ARSPPanelViewControllerSegue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ARSPPanelViewControllerSegue.m; sourceTree = "<group>"; };
+		7DF72C7FA627DB0BC32DC942 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		85809D60157ECBE8B5BBD0A1 /* ARSPContainerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARSPContainerController.h; sourceTree = "<group>"; };
+		9EB6D5FF8005D850F25A978C /* ARSPDragDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ARSPDragDelegate.h; sourceTree = "<group>"; };
+		B4989B692B32415F1FA4EBEB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		CA6DEDC1A8950ACAF022DFCA /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		CB2B6887F42498C12EC4CEEE /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		D9FEAA3B20A7C7BFDFF7181F /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		E6176B524A87106600822B37 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F2140D08B3FDCCCE39E31F0B /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F2D51CCF96CB551F02AAC9D0 /* Pods-ARSlidingPanel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARSlidingPanel-Private.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14565F8C474CC7613CDDF80C /* Frameworks */ = {
+		007D6954C128DE97623CB0DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C33D9E90A3543FC3177054A7 /* Foundation.framework in Frameworks */,
+				58A4DF92CCCCD8FC7FB59EEC /* Foundation.framework in Frameworks */,
+				16F884AACC8657C1EEDF2866 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54A240166368D212C1EF8A01 /* Frameworks */ = {
+		D167937A092D8F74C2313025 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88B0E96819D39F68E15E7832 /* Foundation.framework in Frameworks */,
-				81608C29A4A13FF620827317 /* UIKit.framework in Frameworks */,
+				6DEE02779C2EB95490F617D2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09D86EEF05AA33EF541AF68F /* Classes */ = {
+		23819BE9DAA79711807C7E88 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E13AE76EF528FD0BCDCDAEEC /* ARSPContainerController.h */,
-				20DBCD983C58D92C79257BAA /* ARSPContainerController.m */,
-				4577F30312A20363F928041D /* ARSPDragDelegate.h */,
-				18521CE5D6B7C7BDC8242122 /* ARSPMainViewControllerSegue.h */,
-				45D3278C216A821A0F6E43A5 /* ARSPMainViewControllerSegue.m */,
-				42B5CF472E9E96331BEFE0C3 /* ARSPPanelViewControllerSegue.h */,
-				1DB8FFBE784324AD230969B2 /* ARSPPanelViewControllerSegue.m */,
-				6E5805EEAC41D54174DD67B2 /* ARSPVisibilityState.h */,
-				A78F8D0F5FF656DC12CA6F40 /* ARSPVisibilityStateDelegate.h */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		3431C1524A90B946CC0C5326 /* ARSlidingPanel */ = {
-			isa = PBXGroup;
-			children = (
-				09D86EEF05AA33EF541AF68F /* Classes */,
-				C20ADB0640A77DEEE79F7E4E /* Support Files */,
-			);
-			name = ARSlidingPanel;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		4481BD8E12A09B8D9B056A41 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AD4E5F68FB1F736BC466E79F /* Pods-acknowledgements.markdown */,
-				2F64C03692BE7D724D8FFADA /* Pods-acknowledgements.plist */,
-				D83B1EAA79C870AAAB24705B /* Pods-dummy.m */,
-				6C7493E27EAB442FA608DBC2 /* Pods-environment.h */,
-				E1FF63B3C29DB04F44E20CA6 /* Pods-resources.sh */,
-				054FBE082B4DEF85610E27D2 /* Pods.debug.xcconfig */,
-				CD247CC059EBF8625900223D /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			path = "Target Support Files/Pods";
-			sourceTree = "<group>";
-		};
-		598E86051AD324D0B2CDCC94 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FC1E04098231242B36CB1341 /* iOS */,
+				9791A9446BD83E70940F110C /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		85D2964957E817A60F1092EC /* Products */ = {
+		2EB24808ADA413B6D40892F4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				442F5B4F82A2B5B85CF8647A /* libPods.a */,
-				0045C611B9622AA9D7ECCF85 /* libPods-ARSlidingPanel.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9A8F118CEA9810D8FC8E5E01 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4481BD8E12A09B8D9B056A41 /* Pods */,
+				A668BA282C9BDA20731673C6 /* Pods */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C20ADB0640A77DEEE79F7E4E /* Support Files */ = {
+		40DC4A946C85D460D964859B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7E6D48ACB4FFA13A49D5E984 /* Pods-ARSlidingPanel.xcconfig */,
-				728B825DA079656E9AA17BB5 /* Pods-ARSlidingPanel-Private.xcconfig */,
-				7F0921E0932EB5995F63CF6D /* Pods-ARSlidingPanel-dummy.m */,
-				223B2BFBD98A986FFDFEAB35 /* Pods-ARSlidingPanel-prefix.pch */,
+				36185ECBFC8549B992888D15 /* Pods-ARSlidingPanel.xcconfig */,
+				F2D51CCF96CB551F02AAC9D0 /* Pods-ARSlidingPanel-Private.xcconfig */,
+				5DE5CD1185FFD6CCFE9E3B3E /* Pods-ARSlidingPanel-dummy.m */,
+				184A0D97C8B21453E0377FD5 /* Pods-ARSlidingPanel-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Demo/Pods/Target Support Files/Pods-ARSlidingPanel";
 			sourceTree = "<group>";
 		};
-		D405A4948575F595A3B5A9BD = {
+		578649B2CC17EE6D62C02BFD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2ABFB9CCEC6530124F20685C /* Podfile */,
-				DCA0B3227EF642D2ABF0922E /* Development Pods */,
-				598E86051AD324D0B2CDCC94 /* Frameworks */,
-				85D2964957E817A60F1092EC /* Products */,
-				9A8F118CEA9810D8FC8E5E01 /* Targets Support Files */,
+				85809D60157ECBE8B5BBD0A1 /* ARSPContainerController.h */,
+				73C1CB91241DF5E46DCBA03E /* ARSPContainerController.m */,
+				9EB6D5FF8005D850F25A978C /* ARSPDragDelegate.h */,
+				1BF4F498A0E57D9D662041DB /* ARSPMainViewControllerSegue.h */,
+				27C0F2BB37214FCE819946A8 /* ARSPMainViewControllerSegue.m */,
+				0AF54BEF290564E4201CDCBF /* ARSPPanelViewControllerSegue.h */,
+				7527950D1783CF6F25DFB376 /* ARSPPanelViewControllerSegue.m */,
+				3445C6288C884E119BA0305C /* ARSPVisibilityState.h */,
+				00389CC19009D47D595E3CAC /* ARSPVisibilityStateDelegate.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5A68A41D48F92D95F7156C89 = {
+			isa = PBXGroup;
+			children = (
+				E6176B524A87106600822B37 /* Podfile */,
+				DC200F0940E800F04B180E43 /* Development Pods */,
+				23819BE9DAA79711807C7E88 /* Frameworks */,
+				CE2215D0543CF7BBDB83E115 /* Products */,
+				2EB24808ADA413B6D40892F4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		DCA0B3227EF642D2ABF0922E /* Development Pods */ = {
+		9791A9446BD83E70940F110C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3431C1524A90B946CC0C5326 /* ARSlidingPanel */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FC1E04098231242B36CB1341 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				380E9CBC84DE724FB25B2A81 /* Foundation.framework */,
-				63F128D030A5D206B30A9716 /* UIKit.framework */,
+				5C259019DEC1CCAA45C2CEB5 /* Foundation.framework */,
+				28C0BD376216A3239E284B59 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		A668BA282C9BDA20731673C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2140D08B3FDCCCE39E31F0B /* Pods-acknowledgements.markdown */,
+				6AAA80EA48D944A8021DAC46 /* Pods-acknowledgements.plist */,
+				CB2B6887F42498C12EC4CEEE /* Pods-dummy.m */,
+				CA6DEDC1A8950ACAF022DFCA /* Pods-environment.h */,
+				D9FEAA3B20A7C7BFDFF7181F /* Pods-resources.sh */,
+				609CBE770F356C5BDDF757F6 /* Pods.debug.xcconfig */,
+				B4989B692B32415F1FA4EBEB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		BC0E95898091D3C8B3D6DD48 /* ARSlidingPanel */ = {
+			isa = PBXGroup;
+			children = (
+				578649B2CC17EE6D62C02BFD /* Classes */,
+				40DC4A946C85D460D964859B /* Support Files */,
+			);
+			name = ARSlidingPanel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CE2215D0543CF7BBDB83E115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DF72C7FA627DB0BC32DC942 /* libPods.a */,
+				018097BE7E1D56D9A0CCE470 /* libPods-ARSlidingPanel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC200F0940E800F04B180E43 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC0E95898091D3C8B3D6DD48 /* ARSlidingPanel */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2E53320A841C3B8ECA384111 /* Headers */ = {
+		610D4AC89918D94B7BE8971B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E6B70C9B325A626DC899174 /* ARSPContainerController.h in Headers */,
-				5B197FEC7A997A78D3E765CE /* ARSPDragDelegate.h in Headers */,
-				B9ED247B09F0D07A0F5D345E /* ARSPMainViewControllerSegue.h in Headers */,
-				5FFE712F4EDCACF1B843FCED /* ARSPPanelViewControllerSegue.h in Headers */,
-				5AE7D1BDCA23CAD41BAAE6CA /* ARSPVisibilityState.h in Headers */,
-				8B5B3D42ADCC1F7B04C93901 /* ARSPVisibilityStateDelegate.h in Headers */,
+				E6535E124A728F25E416028E /* ARSPContainerController.h in Headers */,
+				CCA40AB219D7083070793784 /* ARSPDragDelegate.h in Headers */,
+				2B962A2555215E21A4B94286 /* ARSPMainViewControllerSegue.h in Headers */,
+				F3B5C8897F366F9A57278B34 /* ARSPPanelViewControllerSegue.h in Headers */,
+				677583C0827CC1A77B765FAC /* ARSPVisibilityState.h in Headers */,
+				FFB41BA338E300B0E1DE630F /* ARSPVisibilityStateDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6EDD0EAAF7D3BCD0B8F819C6 /* Pods */ = {
+		4D09B3A3D99C304D69A00797 /* Pods-ARSlidingPanel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0EFA8DE21B5FC9D2E3A50216 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = B22C6A77B12BD8849F8E4340 /* Build configuration list for PBXNativeTarget "Pods-ARSlidingPanel" */;
 			buildPhases = (
-				BE84C3040E7ADB96FD597376 /* Sources */,
-				14565F8C474CC7613CDDF80C /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3D126727715FD0349E55D316 /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = 442F5B4F82A2B5B85CF8647A /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		FFD3960257BE96A1DF17555B /* Pods-ARSlidingPanel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7F1D3C4D7E6E01979F5B12E7 /* Build configuration list for PBXNativeTarget "Pods-ARSlidingPanel" */;
-			buildPhases = (
-				324676BDEF26A97AFC6B26CE /* Sources */,
-				54A240166368D212C1EF8A01 /* Frameworks */,
-				2E53320A841C3B8ECA384111 /* Headers */,
+				919DCBE2997E8735E24D1842 /* Sources */,
+				007D6954C128DE97623CB0DC /* Frameworks */,
+				610D4AC89918D94B7BE8971B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -238,70 +221,87 @@
 			);
 			name = "Pods-ARSlidingPanel";
 			productName = "Pods-ARSlidingPanel";
-			productReference = 0045C611B9622AA9D7ECCF85 /* libPods-ARSlidingPanel.a */;
+			productReference = 018097BE7E1D56D9A0CCE470 /* libPods-ARSlidingPanel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B0DD4B26E18F0FA599E7931F /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA890FF0C996AF30C4E72D2A /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				87B5DFD85F77C0EF5F99418C /* Sources */,
+				D167937A092D8F74C2313025 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D438CC64C8D571D430F1F16 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 7DF72C7FA627DB0BC32DC942 /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6E0FE34B1B1B0D6FF28DBD6C /* Project object */ = {
+		9AF4858CF781263D459CC6CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 97696AE83CB35E89D56278A5 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = B9C2C7613BA3BA0D30A922C1 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D405A4948575F595A3B5A9BD;
-			productRefGroup = 85D2964957E817A60F1092EC /* Products */;
+			mainGroup = 5A68A41D48F92D95F7156C89;
+			productRefGroup = CE2215D0543CF7BBDB83E115 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6EDD0EAAF7D3BCD0B8F819C6 /* Pods */,
-				FFD3960257BE96A1DF17555B /* Pods-ARSlidingPanel */,
+				B0DD4B26E18F0FA599E7931F /* Pods */,
+				4D09B3A3D99C304D69A00797 /* Pods-ARSlidingPanel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		324676BDEF26A97AFC6B26CE /* Sources */ = {
+		87B5DFD85F77C0EF5F99418C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B83BB2B0D310340429665B1 /* ARSPContainerController.m in Sources */,
-				B13223D0122E8466C908A183 /* ARSPMainViewControllerSegue.m in Sources */,
-				0B242684AD5BEF68B71E2F86 /* ARSPPanelViewControllerSegue.m in Sources */,
-				8122E9269530A3F94A65C1B9 /* Pods-ARSlidingPanel-dummy.m in Sources */,
+				BE964967CD2AF09991698CBD /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE84C3040E7ADB96FD597376 /* Sources */ = {
+		919DCBE2997E8735E24D1842 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC32FA66EC4304DCBAA9622D /* Pods-dummy.m in Sources */,
+				E949CC87FE8D1E504FA90659 /* ARSPContainerController.m in Sources */,
+				23D950F591EA1D561227A572 /* ARSPMainViewControllerSegue.m in Sources */,
+				90F428260BBE59248734CC2E /* ARSPPanelViewControllerSegue.m in Sources */,
+				EBAEE3B875F0372C325F85CE /* Pods-ARSlidingPanel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3D126727715FD0349E55D316 /* PBXTargetDependency */ = {
+		2D438CC64C8D571D430F1F16 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-ARSlidingPanel";
-			target = FFD3960257BE96A1DF17555B /* Pods-ARSlidingPanel */;
-			targetProxy = 745B04F0185ACE86C94B0D5E /* PBXContainerItemProxy */;
+			target = 4D09B3A3D99C304D69A00797 /* Pods-ARSlidingPanel */;
+			targetProxy = DEA52CCA7DEC06E8A766CC43 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2A97DD4AC52FA0A9EAF85837 /* Release */ = {
+		2963DE2454DFAC5B00B67676 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD247CC059EBF8625900223D /* Pods.release.xcconfig */;
+			baseConfigurationReference = B4989B692B32415F1FA4EBEB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -315,9 +315,9 @@
 			};
 			name = Release;
 		};
-		7CD56263C0DA2086870A9018 /* Debug */ = {
+		7210D3CCFE24070D6EC03A57 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 054FBE082B4DEF85610E27D2 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 609CBE770F356C5BDDF757F6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -331,7 +331,57 @@
 			};
 			name = Debug;
 		};
-		8B2B1F5E2819752DCED4757B /* Debug */ = {
+		7A62272E9D355A9A08B19331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C412EFF4C14BB36B0319B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D51CCF96CB551F02AAC9D0 /* Pods-ARSlidingPanel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ARSlidingPanel/Pods-ARSlidingPanel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B7E3FFAA6B06672DB890C130 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -370,43 +420,9 @@
 			};
 			name = Debug;
 		};
-		B21C5D295CEA0783A0B7F3DE /* Release */ = {
+		D94C2984FA3184D3F0712910 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		BDE00537C5D575F2E7322F65 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 728B825DA079656E9AA17BB5 /* Pods-ARSlidingPanel-Private.xcconfig */;
+			baseConfigurationReference = F2D51CCF96CB551F02AAC9D0 /* Pods-ARSlidingPanel-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-ARSlidingPanel/Pods-ARSlidingPanel-prefix.pch";
@@ -420,53 +436,37 @@
 			};
 			name = Debug;
 		};
-		FC9A599D29AD5A8045267E45 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 728B825DA079656E9AA17BB5 /* Pods-ARSlidingPanel-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-ARSlidingPanel/Pods-ARSlidingPanel-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0EFA8DE21B5FC9D2E3A50216 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		B22C6A77B12BD8849F8E4340 /* Build configuration list for PBXNativeTarget "Pods-ARSlidingPanel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7CD56263C0DA2086870A9018 /* Debug */,
-				2A97DD4AC52FA0A9EAF85837 /* Release */,
+				D94C2984FA3184D3F0712910 /* Debug */,
+				9C412EFF4C14BB36B0319B70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F1D3C4D7E6E01979F5B12E7 /* Build configuration list for PBXNativeTarget "Pods-ARSlidingPanel" */ = {
+		B9C2C7613BA3BA0D30A922C1 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BDE00537C5D575F2E7322F65 /* Debug */,
-				FC9A599D29AD5A8045267E45 /* Release */,
+				B7E3FFAA6B06672DB890C130 /* Debug */,
+				7A62272E9D355A9A08B19331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97696AE83CB35E89D56278A5 /* Build configuration list for PBXProject "Pods" */ = {
+		FA890FF0C996AF30C4E72D2A /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B2B1F5E2819752DCED4757B /* Debug */,
-				B21C5D295CEA0783A0B7F3DE /* Release */,
+				7210D3CCFE24070D6EC03A57 /* Debug */,
+				2963DE2454DFAC5B00B67676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6E0FE34B1B1B0D6FF28DBD6C /* Project object */;
+	rootObject = 9AF4858CF781263D459CC6CC /* Project object */;
 }
