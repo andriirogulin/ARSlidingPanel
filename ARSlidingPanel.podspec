@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ARSlidingPanel"
-  s.version      = "0.1"
+  s.version      = "0.1.0"
   s.summary      = "ARSlidingPanel is a realization of sliding-up panel for iOS"
 
   s.description  = <<-DESC
