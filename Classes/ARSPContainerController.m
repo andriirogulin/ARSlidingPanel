@@ -288,7 +288,7 @@
                                                                             toItem:self.view
                                                                          attribute:NSLayoutAttributeBottom
                                                                         multiplier:1
-                                                                          constant:self.visibleZoneHeight];
+                                                                          constant: - self.visibleZoneHeight];
     [self.view addConstraint:self.panelViewControllerTopConstraint];
 }
 
@@ -327,7 +327,7 @@
                                    animations:animations
                                    completion:^{
                                        self.visibilityState = ARSPVisibilityStateMaximized;
-//                                       [self installPanelViewControllerConstraintToTop];
+                                      [self installPanelViewControllerConstraintToTop];
                                        
                                        if (completion) {
                                            completion();
@@ -337,14 +337,17 @@
 
 - (void)minimizePanelControllerAnimated:(BOOL)animated animations:(void (^)(void))animations completion:(void (^)(void))completion
 {
+    CGFloat bottomOffset = self.panelViewControllerTopConstraint.constant == 0 ? self.visibleZoneHeight - self.panelViewController.view.frame.size.height : self.visibleZoneHeight;
     self.visibilityState = ARSPVisibilityStateIsMinimizing;
     CGFloat animationDuration = (self.animationDuration ? : 0.3f);
-    [self movePanelControllerWithBottomOffset:self.visibleZoneHeight
+    [self movePanelControllerWithBottomOffset:bottomOffset
                                      animated:animated
                             animationDuration:animationDuration
                                    animations:animations
                                    completion:^{
                                        self.visibilityState = ARSPVisibilityStateMinimized;
+                                       [self installPanelViewControllerConstraintToBottom];
+                                       
                                        if (completion) {
                                            completion();
                                        }
