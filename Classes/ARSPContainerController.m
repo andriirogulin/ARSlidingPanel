@@ -327,7 +327,7 @@
                                    animations:animations
                                    completion:^{
                                        self.visibilityState = ARSPVisibilityStateMaximized;
-                                       [self installPanelViewControllerConstraintToTop];
+//                                       [self installPanelViewControllerConstraintToTop];
                                        
                                        if (completion) {
                                            completion();
