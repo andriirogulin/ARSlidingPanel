@@ -360,7 +360,7 @@
 {
     self.visibilityState = ARSPVisibilityStateIsClosing;
     CGFloat animationDuration = (self.animationDuration ? : 0.3f);
-    [self movePanelControllerWithBottomOffset:0
+    [self movePanelControllerWithBottomOffset:- self.panelViewController.view.frame.size.height
                                      animated:animated
                             animationDuration:animationDuration
                                    animations:animations
