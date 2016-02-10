@@ -15,7 +15,7 @@ You will need the latest developer tools in order to build ARSlidingPanel. Old X
 
 # Adding ARSlidingPanel to your project #
 
-## Cocoapods ##
+## CocoaPods ##
 CocoaPods is the recommended way to add ARSlidingPanel to your project.
 
 1. Add a pod entry for ARSlidingPanel to your Podfile:
