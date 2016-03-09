@@ -373,12 +373,19 @@
                                  animations:(void (^)(void))animations
                                  completion:(void (^)(void))completion
 {
-    [UIView animateWithDuration:animated ? animationDuration: 0.0f animations:^{
+    [UIView animateWithDuration:animated ? animationDuration: 0.0f
+                          delay:0
+         usingSpringWithDamping:self.visibilityState == ARSPVisibilityStateIsMinimizing ? 0.82 : 1
+          initialSpringVelocity:0.4
+                        options:UIViewAnimationOptionCurveEaseOut
+                     animations:^
+    {
         if (animations) {
             animations();
         }
         [self updateSlidingViewControllerFrameWithBottomOffset:bottomOffset];
-    } completion:^(BOOL finished) {
+    }
+                     completion:^(BOOL finished) {
         if (completion) {
             completion();
         }
